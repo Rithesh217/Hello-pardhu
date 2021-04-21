@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="suite" thread-count="5"parallel="test">
+<test chrome="chrometest">
+<parameter name ="browser"value="chrome"></parameter>
+<classes>
+<class name="launchbrowser/>"
+</classes>
+</test><!-- test -->
+<test name="ietest">
+<paramter name="browser"value="internetexplorer"></paramter>
+<classes>
+<class name="launchbrowser/>"
+</test> <!-- Test -->
+
+<test name="edgetest">
+<paramter name="browser"value=""edge"></paramter>
+<classes>
+<class name="launchbrowser/>"
+</classes>
+
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="launch.Time"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

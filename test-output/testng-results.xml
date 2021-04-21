@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21058" started-at="2021-04-18T06:15:23Z" finished-at="2021-04-18T06:15:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21058" started-at="2021-04-18T06:15:23Z" finished-at="2021-04-18T06:15:44Z">
+      <class name="launch.Ada">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:launch.Ada@5b275dab]" name="launchbrowser" is-config="true" duration-ms="18428" started-at="2021-04-18T06:15:23Z" finished-at="2021-04-18T06:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="tc1()[pri:0, instance:launch.Ada@5b275dab]" name="tc1" duration-ms="1890" started-at="2021-04-18T06:15:42Z" finished-at="2021-04-18T06:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc2()[pri:0, instance:launch.Ada@5b275dab]" name="tc2" duration-ms="681" started-at="2021-04-18T06:15:44Z" finished-at="2021-04-18T06:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+      </class> <!-- launch.Ada -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
